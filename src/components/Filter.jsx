@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Filter({count , sortProducts}) {
+function Filter({count , sortProducts , filterProducts , brand}) {
 
     
 
@@ -24,14 +24,14 @@ function Filter({count , sortProducts}) {
         </div>
         <div className="brand">
             برند ها
-            <select name="" id="">
+            <select name="FilterBrand" id="FilterBrand" value={brand} onChange={filterProducts}>
                 <option value="">همه</option>
-                <option value="">سامسونگ</option>
-                <option value="">آیفون</option>
-                <option value="">موتورولا</option>
-                <option value="">بلک بری</option>
-                <option value="">ال جی</option>
-                <option value="">سونی</option>
+                <option value="samsung">سامسونگ</option>
+                <option value="iphone">آیفون</option>
+                <option value="motorola">موتورولا</option>
+                <option value="blackbery">بلک بری</option>
+                <option value="lg">ال جی</option>
+                <option value="sony">سونی</option>
             </select>
         </div>
     </div>
