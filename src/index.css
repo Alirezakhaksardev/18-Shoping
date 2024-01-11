@@ -149,6 +149,17 @@ main{
 .empty-price{
   color: crimson;
   font-size: 1.8rem;
+  text-align: center;
+  background-color: rgb(255, 204, 204);
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+.show-price{
+  color: rgb(0, 129, 28);
+  font-size: 1.8rem;
+  text-align: center;
+  background-color: rgb(186, 255, 196);
+  padding: 10px 0;
 }
 
 .cart-item{
